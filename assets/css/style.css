@@ -87,23 +87,58 @@ footer {
     margin-top: 2rem;
 }
 
-/* Logo placeholder */
-.logo-placeholder {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 1.2rem auto;
-    border-radius: 50%;
-    background: #ccc;
+/* Header with left-aligned logo */
+.header-with-logo {
+    background: #1a1a1a;
+    color: white;
+    padding: 2rem 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    gap: 1.5rem;
 }
 
-/* Optional: placeholder text inside the circle */
+/* Logo placeholder on the left */
+.logo-placeholder {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ccc;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-placeholder::after {
     content: "Logo";
     color: #333;
-    font-size: 1rem;
+    font-size: 0.9rem;
     opacity: 0.7;
+}
+
+/* Header text (title + tagline) */
+.header-text h1 {
+    margin: 0;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.header-text p {
+    margin: 0.4rem 0 0 0;
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* Mobile responsive adjustment */
+@media (max-width: 600px) {
+    .header-with-logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 1.8rem;
+    }
 }
