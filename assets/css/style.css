@@ -87,17 +87,17 @@ footer {
     margin-top: 2rem;
 }
 
-/* Header with left-aligned logo */
-.header-with-logo {
+/* Header with inline logo + text */
+.header-inline {
     background: #1a1a1a;
     color: white;
-    padding: 2rem 1.5rem;
+    padding: 1.8rem 1.5rem;
     display: flex;
-    align-items: center;
+    align-items: center; /* <<< THIS is what aligns them on the same line */
     gap: 1.5rem;
 }
 
-/* Logo placeholder on the left */
+/* Circular logo placeholder */
 .logo-placeholder {
     width: 90px;
     height: 90px;
@@ -114,31 +114,31 @@ footer {
 .logo-placeholder::after {
     content: "Logo";
     color: #333;
-    font-size: 0.9rem;
     opacity: 0.7;
+    font-size: 0.9rem;
 }
 
-/* Header text (title + tagline) */
+/* Title + tagline, stacked */
 .header-text h1 {
     margin: 0;
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .header-text p {
-    margin: 0.4rem 0 0 0;
+    margin: 0.3rem 0 0 0;
     font-size: 1.1rem;
     opacity: 0.85;
 }
 
-/* Mobile responsive adjustment */
+/* Mobile layout: stack vertically */
 @media (max-width: 600px) {
-    .header-with-logo {
+    .header-inline {
         flex-direction: column;
         text-align: center;
     }
 
-    .header-text h1 {
-        font-size: 1.8rem;
+    .logo-placeholder {
+        margin-bottom: 0.5rem;
     }
 }
