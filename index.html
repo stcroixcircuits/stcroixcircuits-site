@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Croix Circuits</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>St. Croix Circuits</h1>
+        <p>Trusted component data management for reliable PCB design</p>
+    </header>
+
+    <section class="services">
+        <h2>Services</h2>
+
+        <div class="service-card">
+            <h3>KiCad Footprints & Symbols</h3>
+            <p>Clean, standards-compliant footprints built according to IPC-7351. No guesswork—just accurate, reusable assets.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Library Cleanup & Restructuring</h3>
+            <p>Organize messy libraries, unify naming conventions, and normalize parameters for smoother design flows.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Batch Editing & Automation</h3>
+            <p>Python and tooling to eliminate repetitive edits across entire libraries.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Altium Export Processing</h3>
+            <p>Process Altium-designed assets via exported files—no license required on your end.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Use the form below to request a quote or ask about a project.</p>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Your email" required />
+            <textarea name="message" placeholder="Tell me about your project" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        © <span id="year"></span> St. Croix Circuits — All Rights Reserved.
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

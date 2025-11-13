@@ -1,0 +1,88 @@
+/* Global styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    opacity: 0.85;
+}
+
+/* Content sections */
+section {
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.services h2,
+.contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Service cards */
+.service-card {
+    background: white;
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+form input,
+form textarea {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.9rem;
+    background: #1a1a1a;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #eee;
+    margin-top: 2rem;
+}
