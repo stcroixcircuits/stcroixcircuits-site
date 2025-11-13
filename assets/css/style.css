@@ -90,7 +90,8 @@ footer {
 .header-inline {
     background: #1a1a1a;
     color: white;
-    padding: 1.8rem 1.5rem;
+    padding: 1.8rem 1.5rem 1.8rem 0; 
+    /* top, right, bottom, left */
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -147,3 +148,9 @@ footer {
         width: 100%;
     }
 }
+
+.header-spacer {
+    width: 90px; /* Same width as the logo */
+    flex-shrink: 0;
+}
+
