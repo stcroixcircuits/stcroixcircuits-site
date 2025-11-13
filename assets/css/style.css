@@ -157,9 +157,9 @@ footer {
 .logo {
     width: 100px;          /* exact size of your old placeholder */
     height: 100px;
-    border-radius: 50%;   /* ensures circular logo images stay circular */
+    /*border-radius: 50%;   /* ensures circular logo images stay circular */
     object-fit: cover;    /* IMPORTANT: crops image cleanly to a circle */
     flex-shrink: 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    /*box-shadow: 0 2px 6px rgba(0,0,0,0.15);*/
 }
 
