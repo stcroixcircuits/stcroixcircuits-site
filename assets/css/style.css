@@ -87,17 +87,16 @@ footer {
     margin-top: 2rem;
 }
 
-/* Header with inline logo + text */
 .header-inline {
     background: #1a1a1a;
     color: white;
     padding: 1.8rem 1.5rem;
     display: flex;
-    align-items: center; /* <<< THIS is what aligns them on the same line */
+    align-items: center;    /* keeps logo & text aligned on the same line */
     gap: 1.5rem;
 }
 
-/* Circular logo placeholder */
+/* Logo placeholder */
 .logo-placeholder {
     width: 90px;
     height: 90px;
@@ -118,7 +117,14 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Title + tagline, stacked */
+/* Centered text block */
+.header-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header-text h1 {
     margin: 0;
     font-size: 2rem;
@@ -131,7 +137,7 @@ footer {
     opacity: 0.85;
 }
 
-/* Mobile layout: stack vertically */
+/* Mobile layout */
 @media (max-width: 600px) {
     .header-inline {
         flex-direction: column;
