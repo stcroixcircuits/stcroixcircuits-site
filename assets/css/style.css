@@ -82,6 +82,8 @@ section {
 }
 .page-content img{
     float: right;
+    margin-left: 15px;
+    width: 400px;
 }
 /* Contact form */
 .contact{
