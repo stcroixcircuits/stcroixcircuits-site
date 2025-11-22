@@ -64,6 +64,10 @@ section {
     margin-right: auto;
 }
 
+.page-content h3{
+    text-align: center;
+}
+
 /* Contact form */
 .contact{
     width: 80%;
