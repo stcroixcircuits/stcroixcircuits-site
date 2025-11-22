@@ -84,7 +84,7 @@ section {
 .page-content img{
     max-width: 50%;
     height: auto;
-    margin-left: 15px;
+    margin-left: 80%;
     object-fit: contain;
 }
 /* Contact form */
