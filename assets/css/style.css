@@ -84,7 +84,7 @@ section {
     float: right;
     margin-left: 15px;
     width: 400px
-    object-fit: contain;
+    object-fit: scale-down;
 }
 /* Contact form */
 .contact{
