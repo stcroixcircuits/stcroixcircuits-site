@@ -106,7 +106,7 @@ footer {
 }
 /*   HEADER STUFF */
 .header-inline {
-    background: white;
+    background: LightCyan;
     color: green;
     padding: 1.8rem 1.5rem 1.8rem 0; 
     /* top, right, bottom, left */
