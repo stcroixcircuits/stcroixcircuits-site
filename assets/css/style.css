@@ -83,7 +83,7 @@ section {
 }
 .page-content img{
     float: right;
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     margin-left: 15px;
     object-fit: scale-down;
