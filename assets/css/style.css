@@ -7,6 +7,14 @@ body {
     line-height: 1.6;
 }
 
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
 /* Header */
 header {
     background: white;
