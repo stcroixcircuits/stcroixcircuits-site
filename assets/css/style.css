@@ -63,10 +63,14 @@ section {
     margin-right:auto;
     margin-left:auto;
 }
+
 form {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;      /* keeps it visually tight */
+    margin-left: auto;     /* centers the form */
+    margin-right: auto;    /* centers the form */
+    width: 100%;           /* ensures responsiveness */
 }
 
 form input,
