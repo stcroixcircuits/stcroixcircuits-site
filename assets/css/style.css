@@ -68,6 +68,10 @@ section {
     text-align: center;
 }
 
+.page-content p{
+    text-align: center;
+}
+
 /* Contact form */
 .contact{
     width: 80%;
