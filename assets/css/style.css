@@ -83,10 +83,10 @@ section {
 }
 .page-content img{
     float: right;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     margin-left: 15px;
-    object-fit: scale-down;
+    object-fit: contain;
 }
 /* Contact form */
 .contact{
