@@ -106,7 +106,7 @@ footer {
 }
 /*   HEADER STUFF */
 .header-inline {
-    background: LightCyan;
+    background: White;
     color: green;
     padding: 0 1.5rem 0 0; 
     /* top, right, bottom, left */
@@ -179,6 +179,6 @@ footer {
     object-fit: cover;    /* IMPORTANT: crops image cleanly to a circle */
     flex-shrink: 0;
     /*box-shadow: 0 2px 6px rgba(0,0,0,0.15);*/
-    background: yellow;
+    background: White;
 }
 
