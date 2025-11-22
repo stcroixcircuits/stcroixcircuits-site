@@ -82,7 +82,7 @@ section {
     margin-right: auto;
 }
 .page-content img{
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     margin-left: 15px;
     object-fit: contain;
