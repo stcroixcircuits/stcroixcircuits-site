@@ -85,7 +85,7 @@ section {
     margin-right: auto;
 }
 .page-content img{
-    width: 50%;      /* adjust as needed */
+    width: 30%;      /* adjust as needed */
     height: auto;
     flex-shrink: 0;    /* prevents image from shrinking */
     border-radius: 6px;
