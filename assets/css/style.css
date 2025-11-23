@@ -88,6 +88,7 @@ section {
     width: 30%;      /* adjust as needed */
     height: auto;
     flex-shrink: 0;    /* prevents image from shrinking */
+    object-fit: cover';
 }
 
 .page-content span{
