@@ -88,8 +88,15 @@ section {
     width: 30%;      /* adjust as needed */
     height: auto;
     flex-shrink: 0;    /* prevents image from shrinking */
-    border-radius: 0px 25px 25px 0px;
     object-fit: cover';
+}
+
+.page-content .right{
+    border-radius: 0px 25px 25px 0px;
+}
+
+.page-content .left{
+    border-radius: 25px 0px 0px 25px;
 }
 
 .page-content span{
