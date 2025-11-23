@@ -85,7 +85,7 @@ section {
 }
 
 .page-content img{
-    width: 30%;      /* adjust as needed */
+    max-width: 30%;      /* adjust as needed */
     height: auto;
     flex-shrink: 0;    /* prevents image from shrinking */
     object-fit: cover';
@@ -96,6 +96,7 @@ section {
 }
 
 .page-content .left{
+    width:15%;
     border-radius: 25px 0px 0px 25px;
 }
 
