@@ -71,7 +71,6 @@ section {
 .page-content p{
     border-radius: 25px;
     border: 2px solid #04AA6D;
-    padding: 20px; 
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -93,6 +92,7 @@ section {
 
 .page-content span{
     flex: 1;    /* expands to fill available space */
+    padding: 20px; 
 }
 
 /* Contact form */
